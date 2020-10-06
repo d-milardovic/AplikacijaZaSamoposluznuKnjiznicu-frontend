@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorButtonText">#FFC107</color>
+
+    <color name="colorMain">#00BCD4</color>
+    <color name="colorTextBackground">#F3EDED</color>
+    <color name="colorSelected">#68C4CE</color>
+    <color name="colorToolbarAdmin">#0035D4</color>
+</resources>

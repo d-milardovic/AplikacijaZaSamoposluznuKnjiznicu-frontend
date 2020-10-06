@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Online Library</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="create_a_new_account">Create a New Account</string>
+    <string name="sign_in">Sign in</string>
+    <string name="already_a_member">Already a member?</string>
+    <string name="available">Available</string>
+    <string name="rented">Rented</string>
+    <string name="history">History</string>
+    <string name="save">Save</string>
+    <string name="scan">Scan</string>
+    <string name="isbn">ISBN</string>
+    <string name="year">Year</string>
+    <string name="author">Author</string>
+    <string name="book_name">Book Name</string>
+    <string name="cancel">Cancel</string>
+    <string name="add">Add</string>
+</resources>
