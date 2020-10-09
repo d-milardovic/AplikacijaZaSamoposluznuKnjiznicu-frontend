@@ -130,9 +130,9 @@ public class AvailableFragment extends ListFragment {
                             @Override
                             public void onResponse(Rent response) {
                                 if(response.rentStart != null) {
-                                    Toast.makeText(getActivity(), "Knjiga " + book.title + " rentana", Toast.LENGTH_LONG).show();
+                                    Toast.makeText(getActivity(), "Knjiga " + book.title + " je rentana!", Toast.LENGTH_LONG).show();
                                 } else {
-                                    Toast.makeText(getActivity(), "Ova knjiga je već rentana.", Toast.LENGTH_LONG).show();
+                                    Toast.makeText(getActivity(), "Posudba ove knjige nije moguća!", Toast.LENGTH_LONG).show();
                                 }
                             }
                         });
@@ -158,7 +158,7 @@ public class AvailableFragment extends ListFragment {
                                 list.remove(book);
                                 filtered.remove(book);
                                 adapter.notifyDataSetChanged();
-                                Toast.makeText(getActivity(), "Knjiga " + book.title + " izbrisana", Toast.LENGTH_LONG).show();
+                                Toast.makeText(getActivity(), "Knjiga " + book.title + " izbrisana!", Toast.LENGTH_LONG).show();
                             }
                         });
                     }

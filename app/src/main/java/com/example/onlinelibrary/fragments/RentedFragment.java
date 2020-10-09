@@ -106,7 +106,7 @@ public class RentedFragment extends ListFragment {
                                 filtered.remove(pos);
                                 list.remove(rent);
                                 adapter.notifyDataSetChanged();
-                                Toast.makeText(getActivity(), "Knjiga " + rent.book.title + " vraćena", Toast.LENGTH_LONG).show();
+                                Toast.makeText(getActivity(), "Knjiga " + rent.book.title + " vraćena!", Toast.LENGTH_LONG).show();
                             }
                         });
                     }
